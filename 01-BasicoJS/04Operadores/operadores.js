@@ -24,21 +24,22 @@
 
 */
 
-// let num1 = 5;
-// let num2 = 10;
-// console.log(num1 % num2)
+ let num1 = 5;
+ let num2 = 10;
+ console.log(num1 % num2)
 
-// let inicio = 10;
-// inicio -= 2;
-// inicio -= 2;
-// inicio -= 2;
-// console.log(inicio)
+ let inicio = 10;
+ inicio -= 2;
+ inicio -= 2;
+ inicio -= 2;
+ console.log(inicio)
 
 //Mudar String para número
-// parseFloat - Número inteiro
-// parseInt - Decimais
-const ex1 = 10;
-const ex2 = parseFloat('10.5');
+ //parseFloat - Número inteiro
+ //parseInt - Decimais
 
-console.log(ex1 + ex2)
-console.log(typeof ex2)
+ const ex1 = 10;
+ const ex2 = parseFloat('10.5');
+
+ console.log(ex1 + ex2);
+ console.log(typeof ex2);
