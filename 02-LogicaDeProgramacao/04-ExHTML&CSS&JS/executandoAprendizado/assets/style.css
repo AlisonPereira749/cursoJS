@@ -1,14 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     outline: 0;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-:root {
-  --primary-color: rgb(17, 86, 102);
-  --primary-color-darker: rgb(9, 48, 56);
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 
 .container {
     background-color: #fff;
-    max-width: 600px;
+    max-width: 550px;
     margin: 30px auto;
     padding: 15px;
     border-radius: 10px;
@@ -71,4 +71,35 @@ button {
 button:hover {
     background-color: var(--primary-color-darker);
     transition: ease-in 300ms;
+}
+
+#resultado {
+    margin-top: 15px;
+}
+
+.resultado-correto {
+    background-color: rgb(60, 255, 180);
+    padding: 8px;
+}
+
+.resultado-incorreto {
+    background-color: rgb(247, 122, 51);
+    padding: 8px;
+}
+
+@media (max-width: 550px) {
+    .container {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        font-size: 0.9em;
+        line-height: 1.2em;
+    }
+
+    .container {
+        max-width: 350px;
+    }
 }
