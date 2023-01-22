@@ -13,7 +13,7 @@
 // só posso ter um else na checagem
 // podemos usar condições sem else if, ultilizando apenas if e else
 
-let hora = 20;
+let hora = 22;
 
 if (hora >= 0 && hora < 11) {
     console.log('Bom dia!')

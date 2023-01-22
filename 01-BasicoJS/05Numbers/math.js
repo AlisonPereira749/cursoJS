@@ -17,7 +17,7 @@
 const pos1 = 10;
 const pos2 = 5;
 const pos3 = 100;
-const pos4 = -100;
+const pos4 = -10;
 const pos5 = 120;
 const pos6 = 2;
 

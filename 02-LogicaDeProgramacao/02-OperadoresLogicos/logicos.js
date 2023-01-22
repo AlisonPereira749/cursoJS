@@ -8,6 +8,6 @@
 let chovendo = true;
 let tenhoDinheiro = false;
 
-//console.log(`Posso sair: ${chovendo && tenhoDinheiro}`)
-//console.log(`Posso sair: ${chovendo || tenhoDinheiro}`)
+console.log(`Posso sair: ${chovendo && tenhoDinheiro}`)
+console.log(`Posso sair: ${chovendo || tenhoDinheiro}`)
 console.log(`Posso sair: ${!chovendo}`) //Negação

@@ -1,9 +1,9 @@
 
 const elementos = [
-    {tag: 'p', texto: 'texto que vai ser exibido'},
-    {tag: 'div', texto: 'texto que vai ser exibido'},
-    {tag: 'section', texto: 'texto que vai ser exibido'},
-    {tag: 'footer', texto: 'texto que vai ser exibido'}
+    {tag: 'p', texto: 'texto que vai ser exibido 1'},
+    {tag: 'div', texto: 'texto que vai ser exibido 2'},
+    {tag: 'section', texto: 'texto que vai ser exibido 3'},
+    {tag: 'footer', texto: 'texto que vai ser exibido 4'}
 ]
 
 const container = document.querySelector('.container')
