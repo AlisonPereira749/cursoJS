@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+body {
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p.relogio {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: #fff;
+    width: 120px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: var(--primary-color-darker);
+    transition: ease-in 300ms;
+}
