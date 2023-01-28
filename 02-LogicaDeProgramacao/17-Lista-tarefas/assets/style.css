@@ -6,7 +6,6 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-
 :root {
   --primary-color: rgb(17, 86, 102);
   --primary-color-darker: rgb(9, 48, 56);
@@ -21,33 +20,55 @@ body {
 
 .container {
     background-color: #fff;
-    max-width: 500px;
+    max-width: 600px;
     margin: 30px auto;
     padding: 15px;
     border-radius: 10px;
-    text-align: center;
 }
 
-p.relogio {
-    font-size: 3em;
-    margin: 20px 0;
+h1 {
+    margin-bottom: 10px;
 }
 
-button {
+input {
+    min-width: 260px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    height: 30px;
+}
+
+input:focus {
+    outline: 1px solid var(--primary-color-darker);
+}
+
+button.btnAdd {
     background-color: var(--primary-color);
     color: #fff;
-    width: 120px;
     padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+button.btnAdd:hover {
+    background-color: var(--primary-color-darker);
+    transition: ease-in 200ms;
+}
+
+li {
+    margin: 10px 0 0 20px;
+}
+
+.apagar {
+    background-color: rgb(243 40 40);
+    color: #fff;
+    padding: 4px 5px;
     border: none;
     border-radius: 5px;
     font-weight: 500;
 }
 
-button:hover {
-    background-color: var(--primary-color-darker);
-    transition: ease-in 300ms;
-}
-
-.pausado {
-    color: red;
+.apagar:hover {
+    background-color: rgb(238, 13, 13);
+    transition: ease-in 200ms;
 }
